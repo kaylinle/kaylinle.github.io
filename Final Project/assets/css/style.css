@@ -5,14 +5,14 @@
   position: fixed;
   width: 280px;
   height: 100%;
-  background-color: #84ABAA;
+  background-color: #F1A54F;
   -webkit-transform: translateX(-280px);
   -webkit-transition: all 0.3s;
 }
 
 .sidebar-item {
   font-weight: 700px;
-  font-size: 16px;
+  font-size: 24px;
   color: white;
   padding: 15px 20px;
 }
@@ -30,8 +30,9 @@
   position: relative;
 }
 
-#photo {
-  margin: 0 auto;
+#light-icon {
+  position: relative;
+  margin: -100px 550px;
 }
 
 #about-text{
@@ -43,17 +44,18 @@
 }
 
 #skills-section{
-  background-color: #ACCEC0;
+  background-color: #acc4c8;
   height: 450px;
 }
 
 #projects-section{
-  background-color: #fff;
+  background-color: #edc4c2;
   height: 800px;
 }
 
 #contact-text{
-  color: black;
+  padding: 35px;
+  background-color: #F9FAF5;
   height: 50px;
 }
 
@@ -61,6 +63,7 @@
   font-size: 48px;
   font-weight: 500;
   letter-spacing: 5px;
+  color: #F9FAF5;
 }
 
 /* DOCUMENT SET UP */
@@ -177,8 +180,8 @@ svg {
   padding: 15px;
   margin-top: 10%;
   animation: 5s dashanimation ease forwards;
-  stroke-dasharray: 2500;
-  stroke-dashoffset: 2500;
+  stroke-dasharray: 2350;
+  stroke-dashoffset: 2350;
 }
 
 path.st0{
