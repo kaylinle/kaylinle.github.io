@@ -5,7 +5,7 @@
   position: fixed;
   width: 280px;
   height: 100%;
-  background-color: black;
+  background-color: #65c3ad;
   -webkit-transform: translateX(-280px);
   -webkit-transition: all 0.3s;
 }
@@ -25,7 +25,7 @@
 }
 
 #about-section{
-  background-color: #2bde73;
+  background-color: white;
   height: 600px;
 }
 
@@ -91,7 +91,7 @@ a {
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   height: 3px;
   width: 30px;
-  background: #fff;
+  background: grey;
   position: absolute;
   display: block;
   content: '';
@@ -152,4 +152,35 @@ a {
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -o-transform: translateX(0px);
+}
+
+/* NAME SVG */
+svg {
+  width: 500px;
+  padding: 20px;
+  margin-top: 20%;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: 3.5s dashanimation ease forwards;
+}
+
+path.st0{
+  animation: 9s color-change ease forwards;
+  fill: white;
+}
+
+@keyframes color-change{
+  100%{
+    fill: #EA9078;
+  }
+}
+
+@keyframes dashanimation {
+  to {
+    stroke-dashoffset:0;
+  }
+}
+
+body {
+  text-align: center;
 }
