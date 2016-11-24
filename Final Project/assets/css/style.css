@@ -5,7 +5,7 @@
   position: fixed;
   width: 280px;
   height: 100%;
-  background-color: #65c3ad;
+  background-color: #84ABAA;
   -webkit-transform: translateX(-280px);
   -webkit-transition: all 0.3s;
 }
@@ -18,30 +18,49 @@
 }
 
 
-/* QUESTION #5: PLACE "OTHER CSS" STYLES BELOW */
+/* SECTIONS */
 .section{
   width: 100%;
   position: relative;
 }
 
 #about-section{
-  background-color: white;
+  background-color: #F9FAF5;
   height: 600px;
+  position: relative;
+}
+
+#photo {
+  margin: 0 auto;
+}
+
+#about-text{
+  height: 200px;
+  width: 500px;
+  font-size: 24px;
+  margin: 10px auto;
+  color: #202020;
 }
 
 #skills-section{
-  background-color: #8bb2af;
-  height: 600px;
+  background-color: #ACCEC0;
+  height: 450px;
 }
 
 #projects-section{
   background-color: #fff;
-  height: 1000px;
+  height: 800px;
 }
 
 #contact-text{
   color: black;
-  height: 300px;
+  height: 50px;
+}
+
+.title-name{
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 5px;
 }
 
 /* DOCUMENT SET UP */
@@ -55,7 +74,7 @@ body, html {
   -webkit-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  font-family: Lato;
+  font-family: "Aku & Kamu";
 }
 
 a {
@@ -104,8 +123,6 @@ a {
 #nav-toggle span:after {
   bottom: -10px;
 }
-
-/* FREEBIES */
 
 /* Styling the Sidebar Button */
 #sidebar-button {
@@ -156,24 +173,24 @@ a {
 
 /* NAME SVG */
 svg {
-  width: 500px;
-  padding: 20px;
-  margin-top: 20%;
-  stroke-dasharray: 800;
-  stroke-dashoffset: 800;
-  animation: 3.5s dashanimation ease forwards;
+  width: 470px;
+  padding: 15px;
+  margin-top: 10%;
+  animation: 5s dashanimation ease forwards;
+  stroke-dasharray: 2500;
+  stroke-dashoffset: 2500;
 }
 
 path.st0{
-  animation: 9s color-change ease forwards;
-  fill: white;
+  animation: 4s color-change ease forwards;
+  fill: #F9FAF5;
 }
 
 @keyframes color-change{
   100%{
-    fill: #EA9078;
+    fill: #202020;
   }
-}
+} 
 
 @keyframes dashanimation {
   to {
@@ -181,6 +198,8 @@ path.st0{
   }
 }
 
+
 body {
   text-align: center;
 }
+
