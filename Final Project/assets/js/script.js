@@ -29,8 +29,12 @@ $(document).ready(function() {
       $(".page-wrapper").removeClass("wrapper-active");
       $("body").removeClass("no-scroll");
     }
+  });
 
-
-  }); 
+  // Contact
+  $("#link").click(function(){
+      $("#email").fadeIn(1000);
+      $("#phone").fadeIn(1000);
+  });
 
 });
