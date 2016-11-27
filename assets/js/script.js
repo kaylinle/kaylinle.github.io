@@ -30,16 +30,16 @@ $(document).ready(function() {
     }
   });
 
-  $(".sidebar-item").click(function(){
-    $("body").removeClass("no-scroll");
-    $( "html, body").animate({
-     scrollTop: $($.attr(this, "href:")).offset().top
-    }, 400);
-    $(this).delay(4000);
-      $("#sidebar-button").removeClass("button-active");
-      $(".sidebar-container").removeClass("sidebar-active");
-      $(".page-wrapper").removeClass("wrapper-active");
-  });
+   $(".sidebar-item").click(function(){
+     $("body").removeClass("no-scroll");
+     $( "html, body").animate({
+       scrollTop: $($.attr(this, "href:")).offset().top
+     }, 400);
+     $(this).delay(4000);
+       $("#sidebar-button").removeClass("button-active");
+       $(".sidebar-container").removeClass("sidebar-active");
+       $(".page-wrapper").removeClass("wrapper-active");
+    });
 
   // Lightbulb click
   $("#light-icon").click(function(){
