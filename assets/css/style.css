@@ -158,6 +158,10 @@
   color: #313435;
 }
 
+.tester {
+  display: inline-block;
+}
+
 #contact-section{
   background-color: #FCEBA5;
   height: 120px;
