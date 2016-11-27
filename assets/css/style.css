@@ -232,8 +232,13 @@ body, html {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
+a:hover{
+  cursor: pointer;
+  color: #313435;
+}
 .clear {
   clear: both;
 }
