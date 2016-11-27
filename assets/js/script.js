@@ -37,9 +37,9 @@ $(document).ready(function() {
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
     $(this).delay(10000);
-      $('#sidebar-button').removeClass('button-active');
-      $('.sidebar-container').removeClass('sidebar-active');
-      $('.page-wrapper').removeClass('wrapper-active');
+    $('#sidebar-button').removeClass('button-active');
+    $('.sidebar-container').removeClass('sidebar-active');
+    $('.page-wrapper').removeClass('wrapper-active');
   });
 
   // Lightbulb click
