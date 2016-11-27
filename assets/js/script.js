@@ -36,7 +36,7 @@ $(document).ready(function() {
     $("html, body").animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 300);
-    $(this).delay(3000);
+    $(this).delay(10000);
       $('#sidebar-button').removeClass('button-active');
       $('.sidebar-container').removeClass('sidebar-active');
       $('.page-wrapper').removeClass('wrapper-active');
