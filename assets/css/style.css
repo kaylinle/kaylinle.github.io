@@ -151,11 +151,37 @@
 
 #projects-section{
   background-color: #F9FAF5;
-  height: 800px;
+  height: 740px;
 }
 
 #projects-text{
   color: #313435;
+  margin-bottom: 50px;
+}
+
+.column{
+  width: 33.333%;
+  float: left;
+  height: 260px;
+}
+
+.column:hover{
+  cursor: pointer;
+}
+
+#vm-button{
+  display: inline-block;
+  float: right;
+  text-align: center;
+  padding: 25px 20px;
+  font-family: "Aku & Kamu";
+  color: #313435;
+  font-size: 16px;
+}
+
+#vm-button:hover{
+  cursor: pointer;
+  color: #DE6868;
 }
 
 #contact-section{
