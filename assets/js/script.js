@@ -30,10 +30,10 @@ $(document).ready(function() {
     }
   });
 
-   $(".sidebar-item").click(function(){
+   $(".sidebar-item a").click(function(){
     $("body").removeClass("no-scroll");
     $("html, body").animate({
-      scrollTop: $($.attr(this, "href:")).offset().top
+      scrollTop: $($.attr(this, "href")).offset().top
     }, 400);
     $(this).delay(8000);
       $("#sidebar-button").removeClass("button-active");
