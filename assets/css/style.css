@@ -429,5 +429,5 @@ body {
 
 @font-face{
   font-family: "Aku & Kamu";
-  src: url("assets/Aku&Kamu.otf") format("opentypeface");
+  src: url("assets/Aku&Kamu.otf") format("opentype");
 }
