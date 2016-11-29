@@ -163,7 +163,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: 800ms;
+  transition: 200ms;
 }
 
 .box {
@@ -182,7 +182,7 @@
   background: black;
   opacity: 0;
   transform: translateY(-100%);
-  transition: 3s ease;
+  transition: 1s ease;
   z-index: 2;
 }
 
