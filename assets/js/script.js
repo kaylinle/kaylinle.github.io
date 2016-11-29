@@ -34,8 +34,8 @@ $(document).ready(function() {
     $("body").removeClass("no-scroll");
     $("html, body").animate({
       scrollTop: $($.attr(this, "href")).offset().top
-    }, 400);
-    $(this).delay(8000);
+    }, 600);
+    $(this).delay(10000);
       $("#sidebar-button").removeClass("button-active");
       $(".sidebar-container").removeClass("sidebar-active");
       $(".page-wrapper").removeClass("wrapper-active");
