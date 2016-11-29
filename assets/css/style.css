@@ -428,6 +428,6 @@ body {
 }
 
 @font-face{
-  font-family: Aku&Kamu;
-  src: url("assets/Aku&Kamu.otf") format("opentype");
+  font-family: "Aku & Family";
+  src: url("assets/AK.otf") format("opentype");
 }
