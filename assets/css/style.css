@@ -68,7 +68,7 @@
 
 #skills-section{
   background-color: #acc4c8;
-  height: 420px;
+  height: 460px;
 }
 
 #skills-text{
@@ -86,15 +86,15 @@
 }
 
 #sc1 {
-  transform: translateY(37%);
+  transform: translateY(41%);
 }
 
 #sc2 {
-  transform: translateY(24%);
+  transform: translateY(28%);
 }
 
 #sc3 {
-  transform: translateY(25%);
+  transform: translateY(29%);
 }
 
 #sc1:hover {
@@ -126,15 +126,16 @@
 
 #experience-section{
   background-color: #F4D2D1;
-  height: 420px;
+  height: 470px;
 }
 
 #experience-text{
   color: #F9FAF5;
+  margin-bottom: 10px;
 }
 
 .experience-container{
-  padding: 13px 0px;
+  padding: 15px 0px;
   font-family: "Futura";
   color: #313435;
   text-transform: uppercase;
@@ -145,7 +146,7 @@
 }
 
 .subheading{
-  margin-top: 2px;
+  margin-top: 4px;
   font-size: 14px;
 }
 
