@@ -37,7 +37,7 @@ a {
 #left-text{
   width: 100%;
   margin: 10% 2%;
-  font-size: 18px;
+  font-size: 1.2em;
   line-height: 200%;
 }
 
@@ -111,7 +111,7 @@ path.st0{
   }
 
   #left-text{
-    font-size: 12px;
+    font-size: .8em;
   }
 
   #box img{
