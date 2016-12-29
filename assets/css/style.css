@@ -41,6 +41,11 @@ a {
   line-height: 200%;
 }
 
+#links-container{
+  display: inline-block;
+  text-align: center;
+}
+
 
 /* right */
 #right-panel{
@@ -110,10 +115,6 @@ path.st0{
     margin: 25% auto;
   }
 
-  #left-text{
-    font-size: .8em;
-  }
-
   #box img{
     width: 100px;
   }
@@ -123,5 +124,3 @@ path.st0{
     }
   }
 }
-
-
