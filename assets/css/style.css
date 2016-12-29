@@ -1,407 +1,73 @@
-/* Please read through the provided code below to understand it */
-
-/* SIDEBAR */
-.sidebar-container {
-  position: fixed;
-  width: 280px;
-  height: 100%;
-  background-color: #F1A54F;
-  -webkit-transform: translateX(-280px);
-  -webkit-transition: all 0.3s;
-}
-
-.sidebar-item {
+@font-face{
   font-family: "Aku & Kamu";
-  font-weight: 700px;
-  font-size: 24px;
-  color: white;
-  padding: 15px 20px;
-  letter-spacing: 1px;
-}
-
-.sidebar-item:hover{
-  cursor: pointer;
-  color: #313435;
+  src: url("../Aku&Kamu.otf") format("opentype");
 }
 
 
-/* SECTIONS */
-.section{
-  width: 100%;
-  position: relative;
-}
-
-#about-section{
-  background-color: #F9FAF5;
-  height: 625px;
-  position: relative;
+/* overall */
+body{
   font-family: "Aku & Kamu";
-}
-
-#light-icon {
-  position: relative;
-  margin: -90px 550px;
-  opacity: .6;
-}
-
-#light-icon:hover {
-  opacity: 1;
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
-#about-text{
-  height: 200px;
-  width: 500px;
-  font-size: 24px;
-  margin: 10px auto;
-  color: #313435;
-  font-family: "Aku & Kamu";
-}
-
-#profile-img{
-  display: none;
-  position: absolute;
-  right: 0px;
-  bottom: -10px
-}
-
-#skills-section{
-  background-color: #acc4c8;
-  height: 460px;
-}
-
-#skills-text{
-  color: #F9FAF5;
-}
-
-.skills-container{
-  right: 10px;
-  display: inline-block;
-  position: relative;
-  padding: 0 20px;
-  width: 280px;
-  text-align: center;
-  color: #313435;
-}
-
-#sc1 {
-  transform: translateY(41%);
-}
-
-#sc2 {
-  transform: translateY(28%);
-}
-
-#sc3 {
-  transform: translateY(29%);
-}
-
-#sc1:hover {
-  transform: scale(1.2);
-}
-
-#sc2:hover {
-  transform: scale(1.2);
-}
-
-#sc3:hover {
-  transform: scale(1.2);
-}
-
-.sc-title{
-  font-size: 24px;
-  padding-top: 15px;
-  padding-bottom: 5px;
-  font-family: "Aku & Kamu";
-}
-
-.sc-text{
-  text-align: center;
-  font-family: "Futura";
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-
-#experience-section{
-  background-color: #F4D2D1;
-  height: 470px;
-}
-
-#experience-text{
-  color: #F9FAF5;
-  margin-bottom: 10px;
-}
-
-.experience-container{
-  padding: 15px 0px;
-  font-family: "Futura";
-  color: #313435;
-  text-transform: uppercase;
-}
-
-.heading{
-  font-size: 18px;
-}
-
-.subheading{
-  margin-top: 4px;
-  font-size: 14px;
-}
-
-#projects-section{
-  background-color: #F9FAF5;
-  height: 800px;
-}
-
-#projects-text{
-  color: #313435;
-  margin-bottom: 50px;
-}
-
-.box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: 400ms;
-}
-
-.box {
-  float: left;
-  margin: 15px 15px;
-  width: 394px;
-  height: 250px;
-  position: relative;
-  overflow: hidden;
-}
-
-.content {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: black;
-  opacity: 0;
-  transform: translateY(-100%);
-  transition: 400ms;
-  z-index: 2;
-}
-
-.content-title{
-  transform: translateY(250%);
-  font-family: "Aku & Kamu";
-  font-size: 28px;
-  color: white;
-}
-
-.content-description{
-  transform: translateY(650%);
-  font-family: "Futura";
-  text-transform: uppercase;
-  font-size: 12px;
-  color: white;
-}
-
-.box:hover .content {
-  opacity: 0.75;
-  transform: translateY(0)
-}
-
-.box:hover img {
-  transform: scale(1.25);
-}
-
-#vm-button{
-  display: inline-block;
-  float: right;
-  text-align: center;
-  padding: 25px 20px;
-  font-family: "Aku & Kamu";
-  color: #313435;
-  font-size: 16px;
-}
-
-#vm-button:hover{
-  cursor: pointer;
-  color: #DE6868;
-}
-
-#contact-section{
-  background-color: #FCEBA5;
-  height: 120px;
-}
-
-#link{
-  position: absolute;
-  transform: translate(550px, 30px);
-  font-size: 24px;
-  font-family: "Aku & Kamu";
-  border: 2px solid #DE6868 ;
-  padding: 5px 15px;
-  cursor: pointer;
-  border-radius: 2px;
-  width: 150px;
-  color: #DE6868;
-}
-
-#link:hover{
-  background-color: #DE6868;
-  color: #FCEBA5;
-}
-
-#email{
-  display: none;
-  font-size: 24px;
-  position: absolute;
-  left: 150px;
-  bottom: 50px;
-  font-family: "Aku & Kamu";
-  color: #313435;
-}
-
-#phone{
-  display: none;
-  position: absolute;
-  right: 150px;
-  bottom: 50px;
-  font-size: 24px;
-  font-family: "Aku & Kamu";
-  color: #313435;
-
-}
-#copyright{
-  margin-top: 50px;
-  font-size: 12px;
-  font-family: "Aku & Kamu";
-  color: #313435;
-}
-
-.title-name{
-  font-family: "Aku & Kamu";
-  padding: 20px;
-  font-size: 52px;
-  font-weight: 500;
-  letter-spacing: 5px;
-}
-
-
-/* DOCUMENT SET UP */
-
-body, html {
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  min-width: 960px;
-  background-color: black;
-  -webkit-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
-  color: white;
-}
-
-a:hover{
   cursor: pointer;
   color: #313435;
 }
-.clear {
-  clear: both;
-}
 
-.img-scaled {
-  width: 100%;
+.panel{
+  width: 50%;
   height: 100%;
 }
 
-.img-scaled-wh {
-  width: 100%;
-  height: 100%;
-  position: relative;
+.container{
+  height: 50%;
+  width: 60%;
+  margin: 40% auto;
 }
 
-/* YOU DON'T NEED TO UNDERSTAND THE CODE BELOW */
-
-#nav-toggle { 
-  position: absolute; 
-  left: 50%; top: 50%; 
-}
-
-#nav-toggle {
-  padding: 10px 30px 15px 0px; 
-}
-
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  height: 3px;
-  width: 30px;
-  background: #F1A54F;
-  position: absolute;
-  display: block;
-  content: '';
-}
-
-#nav-toggle span:before {
-  top: -10px; 
-}
-
-#nav-toggle span:after {
-  bottom: -10px;
-}
-
-/* Styling the Sidebar Button */
-#sidebar-button {
+/* left */
+#left-panel{
+  background-color: #FFF7DA;
   position: fixed;
-  z-index: 100;
-  left: 15px;
-  top: 15px;
-  cursor: pointer;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-} 
-
-/* Overriding default styles on the ul */
-.sidebar-container ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin-top: 10px;
 }
 
-.page-wrapper {
-  height: 100%;
+#left-text{
   width: 100%;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
+  margin: 10% 2%;
+  font-size: 18px;
+  line-height: 200%;
 }
 
-/* jQuery Manipulation Classes */
 
-.no-scroll {
-  overflow: hidden;
+/* right */
+#right-panel{
+  background-color: #ACC4C8;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
-.wrapper-active, .button-active {
-  -webkit-transform: translateX(280px);
-  -moz-transform: translateX(280px);
-  transform: translateX(280px);
+#box {
+  text-align: center;
+  opacity: .7;
 }
 
-.sidebar-active {
-  -webkit-transform: translateX(0px);
-  -moz-transform: translateX(0px);
-  -o-transform: translateX(0px);
+#box:hover{
+  opacity: 1;
+  transform: scale(1.2);
+  transform: 2s;
 }
 
-/* NAME SVG */
+
+/* name animation */
+#name-animation{
+    width: 100%;
+}
+
 svg {
-  width: 500px;
-  padding: 12px;
-  margin-top: 10%;
   animation: 5s dashanimation ease forwards;
   stroke-dasharray: 2350;
   stroke-dashoffset: 2350;
@@ -424,11 +90,38 @@ path.st0{
   }
 }
 
-body {
-  text-align: center;
+/* media */
+@media screen and (max-width: 799px) {
+  .panel{
+    width: 100%;
+    height: 50%;
+  }
+
+  #right-panel{
+    height: 25%;
+  }
+
+  #left-panel{
+    bottom:0;
+    height: 75%;
+  }
+
+  #left-container{
+    margin: 25% auto;
+  }
+
+  #left-text{
+    font-size: 12px;
+  }
+
+  #box img{
+    width: 100px;
+  }
+
+  #box{
+    margin-top: -50%;
+    }
+  }
 }
 
-@font-face{
-  font-family: "Aku & Kamu";
-  src: url("../Aku&Kamu.otf") format("opentype");
-}
+
