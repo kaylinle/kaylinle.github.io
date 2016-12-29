@@ -232,7 +232,7 @@
 }
 
 #link{
-  position: relative;
+  position: absolute;
   transform: translate(550px, 30px);
   font-size: 24px;
   font-family: "Aku & Kamu";
