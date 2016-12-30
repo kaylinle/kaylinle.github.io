@@ -16,6 +16,7 @@ body{
   font-family: "Aku & Kamu";
   margin: 0;
   padding: 0;
+  background-color: #F9FAF5;
 }
 
 a {
@@ -35,7 +36,7 @@ a {
   margin: 30% auto;
 }
 
-#wrapper{
+.wrapper{
   width: 70%;
   margin: 0 auto;
 }
