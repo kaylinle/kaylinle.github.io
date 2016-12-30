@@ -130,18 +130,30 @@ path.st0{
 
 /* resume page */
 #resume-container{
-  width: 80%;
+  width: 75%;
   height: 100%;
   padding: 2% 0%;
   overflow: hidden;
   margin: 0 auto;
   margin-top: 8%;
   text-align: center;
-  background-color: #DCDCDC;
+  background-color: #ACC4C8;
 }
 
+#resume-container img {
+  opacity: .8;
+  transform: scale(.9);
+  box-shadow: 15px 15px 5px #888888;
+}
 #resume-container:hover{
   cursor: pointer;
+}
+
+#resume-container:hover img {
+  transform: scale(1);
+  opacity: 1;
+  transition: 500ms;
+  box-shadow: 25px 20px 5px #313435;
 }
 
 /* media */
@@ -187,8 +199,12 @@ path.st0{
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 450px) {
+  #resume-container{
+    background-color: white;
+  }
   #resume-container img{
+    transform: scale(1);
     width: 100%;
   }
 }
