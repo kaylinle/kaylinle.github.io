@@ -96,7 +96,7 @@ a {
 #box:hover{
   opacity: 1;
   transform: scale(1.2);
-  transform: 2s;
+  transition: 300ms;
 }
 
 
