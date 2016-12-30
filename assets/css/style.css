@@ -34,6 +34,26 @@ a {
   width: 60%;
   margin: 40% auto;
 }
+#wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title{
+  margin-top: 10%;
+  font-size: 5em;
+  text-align: center;
+}
+
+.links-other-container{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.link-other{
+  border-bottom: 2px solid #313435;
+  margin: 0 5%;
+}
 
 /* left */
 #left-panel{
@@ -105,6 +125,22 @@ path.st0{
   to {
     stroke-dashoffset:0;
   }
+}
+
+/* resume page */
+#resume-container{
+  width: 80%;
+  height: 100%;
+  padding: 2% 0%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 8%;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+#resume-container:hover{
+  cursor: pointer;
 }
 
 /* media */
