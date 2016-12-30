@@ -44,21 +44,31 @@ a {
   margin-top: 10%;
   font-size: 5em;
   text-align: center;
+  color: #313435;
 }
 
 .links-other-container{
   margin-top: 2.5%;
   text-align: center;
+  color: #313435;
 }
 
 .link-other{
   border-bottom: 2px solid #313435;
   margin: 0 5%;
+  color: #313435;
+}
+
+.link-other:hover{
+  padding: 2px 0px;
+  border-bottom: 4px solid #ACC4C8;
+  border-top: 4px solid #ACC4C8;
+  transition: 130ms;
 }
 
 /* left */
 #left-panel{
-  background-color: #FFF7DA;
+  background-color: #F9FAF5;
   position: fixed;
 }
 
@@ -67,17 +77,27 @@ a {
   margin: 10% 2%;
   font-size: 1.2em;
   line-height: 200%;
+  color: #313435;
 }
 
 #links-container{
   margin-top: 15%;
   width: 100%;
   text-align: center;
+  color: #313435;
 }
 
 .link {
   border-bottom: 2px solid #313435;
   margin: 0 10%;
+  color: #313435;
+}
+
+.link:hover{
+  padding: 2px 0px;
+  border-bottom: 4px solid #ACC4C8;
+  border-top: 4px solid #ACC4C8;
+  transition: 130ms;
 }
 
 /* right */
@@ -129,7 +149,7 @@ path.st0{
 }
 
 /* resume page */
-#resume-container{
+#resume-container {
   width: 75%;
   height: 100%;
   padding: 2% 0%;
@@ -145,6 +165,7 @@ path.st0{
   transform: scale(.9);
   box-shadow: 15px 15px 5px #888888;
 }
+
 #resume-container:hover{
   cursor: pointer;
 }
@@ -184,7 +205,7 @@ path.st0{
     width: 100px;
   }
 
-  #box{
+  #box {
     margin-top: -50%;
     }
 
@@ -193,7 +214,7 @@ path.st0{
     margin: 0 5%;
     }
 
-  #resume-container{
+  #resume-container {
     padding: 0 0;
     margin-top: 30%;
   }
