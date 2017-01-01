@@ -259,7 +259,12 @@ path.st0{
   }
 
   .title{
+    margin-left: 15px;
     text-align: center;
+  }
+
+  .link-other{
+    margin: 0 3%;
   }
 
   .about-item{
