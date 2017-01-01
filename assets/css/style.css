@@ -262,12 +262,27 @@ path.st0{
     text-align: center;
   }
 
+  .about-item{
+    margin-top: 10%
+  }
 
   .c1{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
 
   }
 
   .c2{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
 
+  }
+
+  #bio{
+    font-size: 10px;
+    padding-right: 0;
+    padding-left: 30px;
   }
 }
