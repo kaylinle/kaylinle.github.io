@@ -241,11 +241,22 @@ path.st0{
 
 @media screen and (max-width: 450px) {
   #resume-container{
+    margin-top: 5%;
     background-color: white;
   }
 
   #resume-container img{
-    transform: scale(1);
-    width: 100%;
+    transform: scale(.9);
+  }
+
+  .wrapper{
+    margin: 0;
+  }
+  .c1{
+
+  }
+
+  .c2{
+
   }
 }
