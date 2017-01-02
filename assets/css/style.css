@@ -16,7 +16,7 @@ body{
   font-family: "Aku & Kamu";
   margin: 0;
   padding: 0;
-  background-color: #F9FAF5;
+  background-color: #FFFFFF;
 }
 
 a {
@@ -80,7 +80,7 @@ a {
 
 /* left */
 #left-panel{
-  background-color: #F9FAF5;
+  background-color: #FFFFFF;
   position: fixed;
 }
 
