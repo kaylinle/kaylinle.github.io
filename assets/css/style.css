@@ -25,6 +25,12 @@ a {
   color: #313435;
 }
 
+.wip{
+  margin: 40% auto;
+  text-align: center;
+  font-size: 30px;
+}
+
 .panel{
   width: 50%;
   height: 100%;
