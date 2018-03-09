@@ -225,6 +225,28 @@ path.st0{
   cursor: pointer;
 }
 
+/* photoshop page */
+.section{
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+#klesis-section{
+  height: 600px;
+  width: 1000px;
+  background-color: #FFF9E3;
+  position: relative;
+}
+
+#ttl-section{
+  height: 600px;
+  width: 1000px;
+  background-color: black;
+  position: relative;
+}
+
 /* resume page */
 #resume-container {
   width: 75%;
